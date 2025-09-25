@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+body{
+    width: 100vw; /*Comprimento, vh = view width */
+    height: 100vh; /*Altura, vh = view height */
+
+    background-color: #a7fbfa;
+    /* background-image: url(); */
+    padding: 20px;
+    /* left: esquerda; right: direito; top: topo; bottom: embaixo. */
+}
