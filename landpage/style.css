@@ -62,9 +62,6 @@ main{
 }
 
 @media (min-width: 900px) {
-    body {
-
-    }
     main {
         flex-direction: row;
         margin-top: 0;
