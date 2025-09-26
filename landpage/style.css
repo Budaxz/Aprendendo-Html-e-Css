@@ -9,13 +9,16 @@
 body{
     width: 100vw;
     height: 100vh;
-
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     width: 90%;
-    margin: 50px auto 0;
+    margin: 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -60,14 +63,26 @@ main{
 
 @media (min-width: 900px) {
     body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
     }
     main {
         flex-direction: row;
         margin-top: 0;
+        gap: 50px;
     }
 
+    #photo {
+        width: 300px;
+        height: 300px;
+    }
+    .box img {
+        width: 300px;
+        height: 300px;
+    }
+    .box p {
+        max-width: 450px;
+    }
+    .icons {
+        font-size: 32px;
+    }
 }
